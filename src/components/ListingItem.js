@@ -62,7 +62,10 @@ export default class ListingItem extends Component {
 
   render() {
     return (
-      <ReactCSSTransitionGroup transitionName="items" transitionAppear={true} transitionAppearTimeout={300}>
+      <ReactCSSTransitionGroup transitionName="items"
+        transitionAppear={true} transitionAppearTimeout={300}
+        transitionEnterTimeout={0} transitionLeaveTimeout={0}
+      >
         <div className="row">
           <div className="col-md-1">
             <div className="row">
