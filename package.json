@@ -8,6 +8,8 @@
     "react-scripts": "0.4.1"
   },
   "dependencies": {
+    "auth0-js": "^7.2.1",
+    "auth0-lock": "^10.3.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "react-markdown": "^2.4.2",
